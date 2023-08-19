@@ -1,6 +1,178 @@
-:root{
-    // --border-color: 1px solid;
+.header {
+    width: 1300px;
+    height: 1100px;
+    background-color: #233000;
+    margin: 0 auto;
+    &__nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 15%;
+        &-img {
+            width: 200px;
+            height: 100px;
+            margin: 0 40px 0 50px;
+        }
+        .fa-bars {
+            font-size: 35px;
+            color: #fff;
+        }
+        &-num {
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Inter', sans-serif;
+            color: #fff;
+            margin: 0 20px 0 510px;
+        }
+        &-btn {
+            padding: 12px 30px;
+            font-size: 22px;
+            font-family: 'Rufina', serif;
+            color: #fff;
+            background: transparent;
+            border: 1px solid #fff;
+        }
+    }
+    &__hero {
+        position: relative;
+        &-title {
+            position: absolute;
+            font-size: 100px;
+            font-weight: 500;
+            font-family: 'Rufina', serif;
+            color: #fff;
+            top: -30px;
+            left: 80px;
+            z-index: 1;
+        }
+        &-text {
+            position: absolute;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Inter', sans-serif;
+            color: #fff;
+            top: 400px;
+            left: 80px;
+        }
+        &-main_img {
+            position: absolute;
+            width: 590px;
+            height: 600px;
+            top: 132px;
+            right: 60px;
+        }
+        &-sImg {
+            position: absolute;
+            top: 580px;
+            left: 400px;
+        }
+        &-sImg2 {
+            position: absolute;
+            top: 580px;
+            left: 620px;
+        }
+        &-sImg3 {
+            position: absolute;
+            top: 580px;
+            left: 840px;
+        }
+        &-scroll {
+            position: absolute;
+            font-size: 28px;
+            font-weight: 400;
+            font-family: 'Rufina', serif;
+            color: #fff;
+            transform: rotate(90deg);
+            top: 650px;
+            left: -80px;
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// section-5
+
+
+
+
+
+
+
+
+
 .sectionFive{
     width: 1300px;
     height: 1000px;
